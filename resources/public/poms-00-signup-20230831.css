@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
+fieldset[name="FORM"]{
+    background-color: lightgrey;
+    border-radius: 50px;
+    padding: 20px 70px 60px 60px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+    width: auto;
+    height:  auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+
+}
+
+input {
+    width: 97%;
+    padding: 10px;
+    margin-bottom: 1px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: lightyellow;
+}
+
+button[name="signup-button"] {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 20px 60px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+button[name="signup-button"]:hover {
+    background-color: #0056b3;
+}
+
+p{
+    text-transform: capitalize;
+}
+
+.cbdiv{
+    width: 60px;
+    height: 60px;
+    float: left;
+    margin: auto;
+    margin-left: 5px;
+    padding: 5px;
+
+}
+.cbborderdiv{
+    width: 300px;
+    height: 60px;
+    display: block;
+    margin: auto;
+}
+h4.tedariktxt{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 1px;
+}
+

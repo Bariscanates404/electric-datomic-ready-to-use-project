@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #cccccc;
+}
+
+fieldset[name="FORM"] {
+    width: 150px;
+    height: 175px;
+    padding: 8px;
+    border: 1px solid;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+input {
+    width: 97%;
+    padding: 10px;
+    margin-bottom: 1px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: lightyellow;
+}
+
+button[name="login-button"] {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 20px 60px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+
+.login-info {
+    padding-top: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-style: italic;
+
+}
+p{
+    text-transform: capitalize;
+}
